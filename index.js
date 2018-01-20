@@ -1,5 +1,5 @@
-function breakOut(array, changeValue, stopValue) {
-  array.forEach ((element, index, array)
-
-  )
+function breakOut(array) {
+  array.forEach ((index, element) => {
+    console.log(`${element}: ${index}`)
+  })
 }
